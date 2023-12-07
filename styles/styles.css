@@ -14,11 +14,11 @@ body{
 }
 h2,p{
     color: #ebebeb;
-    text-align: center;
+    padding-left: 25px;
 
 }
 
-h1{
+h1, h3{
     color: #ebebeb;
     text-align: left;
     padding-left: 13%;
@@ -97,3 +97,52 @@ footer{
     background-color: #676767;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+/* css forfaqs*/
+
+.faq-section {
+    margin-bottom: 20px;
+    text-align: left;
+    color:rgb(255, 208, 127);
+
+
+}
+
+
+/* Viewport for Mobile */
+@media screen and (max-width: 600px) {
+    .nav_item
+    {
+        display: block;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .nav_item:hover
+    {
+        background-color: rgba(225, 225, 225, .5);
+    }
+}
+
+
+/* Viewport for tablets */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  /* Tablet styles go here */
+
+   .nav_item:hover
+    {
+        background-color: rgba(25, 225, 225, .5);
+        padding: 5px;
+    }
+}
+
+
+/* Viewport for Desktop */
+@media screen and (min-width: 1025px) {
+  /* Desktop styles go here */
+
+  .nav_item:hover
+    {
+        background-color: rgba(225, 35, 225, .5);
+        padding: 5px;
+    }
+}
+
